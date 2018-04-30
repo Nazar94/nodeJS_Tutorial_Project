@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul
+      li My Text
+      li.
+        Text text text text text text text text text text
+        text text text text text text text text text text
+      li texten
+      input(type = 'text').class-name#anyid
+
+      if condition
+        p It`s true
+       -var anyArray =[1,2,3]
+          //output array
+       each value in anyArray
+          p=value
+    block content
+// -var condition = false overriding condition even if it`s true in router- should be between input and condition
